@@ -1,0 +1,191 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    background-color: #f5f7fa;
+    margin: 0;
+line-height: 1.6;
+}
+
+header{
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+}
+
+header h1{
+    margin: 0;
+    font-size: 38px;
+}
+
+header p{
+    margin-top: 10px;
+    color: #cbd5e1;
+}
+
+nav{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: #1e293b;
+    font-weight: bold;
+}
+
+nav ul a:hover{
+    color: #2563eb;
+}
+
+section{
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+section h2{
+    color: #2563eb;
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+
+#home{
+    text-align: center;
+    background-color: #eaf2ff;
+    padding: 55px 30px;
+}
+
+#home h2{
+    border-bottom: none;
+    font-size: 30px;
+}
+
+#books > ol{
+    padding-left: 25px;
+}
+
+#books > ol > li{
+    background-color: #f8fafc;
+    margin: 20px 0;
+    padding: 20px;
+    border-left: 4px solid #2563eb;
+    border-radius: 6px;
+}
+
+#books > ol > li:hover{
+    background-color: #eef4ff;
+}
+
+#books h3{
+    color: #1d4ed8;
+    margin-top: 0;
+}
+
+#books h4{
+    color: #334155;
+    margin-bottom: 5px;
+}
+
+#books ul{
+    padding-left: 25px;
+}
+
+#books ul ul{
+    color: #555;
+}
+
+#categories ul{
+    padding-left: 20px;
+}
+
+#categories li{
+    margin: 10px 0;
+    padding: 8px 12px;
+    background-color: #f8fafc;
+    border-left: 3px solid #2563eb;
+    border-radius: 4px;
+}
+
+#categories li:hover{
+    background-color: #eaf2ff;
+}
+
+#about p{
+    text-align: justify;
+}
+
+#contact address{
+    font-style: normal;
+    line-height: 2;
+}
+
+#contact a{
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+    header{
+        padding: 35px 15px;
+    }
+
+    header h1{
+        font-size: 30px;
+    }
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    section{
+        margin: 20px 12px;
+        padding: 20px;
+    }
+    #home h2{
+        font-size: 25px;
+    }
+    #books > ol > li{
+        padding: 15px;
+    }
+    #books ul{
+        padding-left: 20px;
+    }
+}
