@@ -136,18 +136,18 @@ cd book-store
 Live Demo : https://rahulkumawat30.github.io/book-store/
 
 
-```markdown
-<img width="1604" height="619" alt="image" src="https://github.com/user-attachments/assets/60b5a5c2-47b6-4f85-9f3e-f85bb202c4ff" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/86f42032-c0a9-44b7-b89c-d26b810617f3" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1676239d-eb88-4cf3-8eba-321223910766" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8e27a6cb-34c1-492c-ab1c-08672ba84b39" />
-```
-``` Mobile Responsive
+
+
+ Mobile Responsive
+
+ 
 <img width="635" height="990" alt="image" src="https://github.com/user-attachments/assets/a3bc9dca-ff4b-401b-b827-abdc2a5355c8" />
 <img width="630" height="994" alt="image" src="https://github.com/user-attachments/assets/3e9a2e60-340d-4dd2-856f-abc665f2562b" />
 <img width="624" height="924" alt="image" src="https://github.com/user-attachments/assets/4a635ba7-314c-4154-80f5-57c5e94a3db9" />
 
-```
 
 
 ## 🔮 Future Improvements
